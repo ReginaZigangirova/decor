@@ -1,0 +1,18 @@
+.photo__img {
+    width: 206px;
+    height: 304px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 639px) {
+    .photo__img {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .photo__img {
+        width: 102px;
+    }
+}

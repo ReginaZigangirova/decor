@@ -1,0 +1,16 @@
+.advertising__img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 639px) {
+    .advertising__img {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .advertising__img {
+        width: 102px;
+    }
+}

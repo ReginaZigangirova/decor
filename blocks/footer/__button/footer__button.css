@@ -1,0 +1,35 @@
+.footer__button {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 22px 74px 20px 72px;
+    color: #292929;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer__button:last-child {
+    padding: 21px 45px 21px 53px;
+}
+
+@media screen and (max-width: 539px) {
+    .footer__button {
+        padding: 14px 80px 17px 79px;
+        margin-top: 10px;
+    }
+    .footer__button:last-child {
+        padding: 18px 67px 17px 66px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer__button {
+        padding: 14px 80px 17px 77px;
+    }
+    .footer__button:last-child {
+        padding: 18px 67px 17px 64px;
+    }
+}

@@ -1,0 +1,17 @@
+.work__img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 639px) {
+    .work__img {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .work__img {
+        width: 102px;
+    }
+}
+

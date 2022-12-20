@@ -1,0 +1,16 @@
+.header__text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    margin: 0;
+    color: #292929;
+    max-width: 300px;
+}
+
+@media screen and (max-width: 539px){
+    .header__text {
+        font-size: 13px;
+        line-height: 18px;
+        max-width: 200px;
+    }
+}

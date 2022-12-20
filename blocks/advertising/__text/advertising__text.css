@@ -1,0 +1,17 @@
+.advertising__text {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    color: #292929;
+}
+
+.advertising__text:last-of-type {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 539px) {
+    .advertising__text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}

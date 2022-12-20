@@ -1,0 +1,25 @@
+.podzum__button {
+    padding: 18px 237px 17px 231px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #292929;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 639px) {
+    .podzum__button {
+        padding: 18px 80px 17px 79px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .podzum__button {
+        padding: 18px 80px 17px 77px;
+    }
+}

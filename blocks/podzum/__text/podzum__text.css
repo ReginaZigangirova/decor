@@ -1,0 +1,20 @@
+.podzum__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 20px 0 0;
+    color: #292929;
+}
+
+@media screen and (max-width: 539px) {
+    .podzum__text {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .podzum__text {
+        max-width: 328px;
+    }
+}

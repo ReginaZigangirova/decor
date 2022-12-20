@@ -1,0 +1,14 @@
+.photo__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    color: #292929;
+    margin: 0;
+}
+
+@media screen and (max-width: 539px) {
+    .photo__title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

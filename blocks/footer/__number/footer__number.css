@@ -1,0 +1,18 @@
+.footer__number {
+    font-size: 36px;
+    line-height: 34px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 30px 0 0;
+    color: #FFFFFF;
+    padding-bottom: 44px;
+}
+
+@media screen and (max-width: 539px) {
+    .footer__number {
+        font-size: 22px;
+        line-height: 34px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,15 @@
+.header__number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 8px 0 0;
+    color: #292929;
+}
+
+@media screen and (max-width: 539px) {
+    .header__number {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+}

@@ -1,0 +1,15 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    max-width: 640px;
+    min-width: 360px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+

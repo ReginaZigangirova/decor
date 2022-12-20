@@ -1,0 +1,9 @@
+.advertising {
+    padding: 40px 0 0;
+}
+
+@media screen and (max-width: 539px) {
+    .advertising {
+        padding-top: 42px;
+    }
+}
